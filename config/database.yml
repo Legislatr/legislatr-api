@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: legislatr-api_production
-  username: legislatr-api
-  password: <%= ENV['LEGISLATR-API_DATABASE_PASSWORD'] %>
+  database: legislatr
+  username: legislatr
+  password: <%= ENV['DB_PASSWORD'] %>
