@@ -8,5 +8,8 @@ class BillSerializer < ActiveModel::Serializer
              :cosponsors,
              :committees,
              :latest_major_action_date,
-             :latest_major_action
+             :latest_major_action,
+             :bill_highlight_1,
+             :bill_highlight_2,
+             :categories
 end
