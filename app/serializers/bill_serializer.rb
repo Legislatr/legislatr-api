@@ -1,5 +1,6 @@
 class BillSerializer < ActiveModel::Serializer
-  attributes :number,
+  attributes :id,
+             :number,
              :bill_uri,
              :title,
              :sponsor_uri,
