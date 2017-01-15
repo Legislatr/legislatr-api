@@ -11,7 +11,8 @@ module PropublicaApi
       "latest_major_action_date": "March 31, 2016",
       "latest_major_action": "Referred to the Subcommittee on Nutrition."
     }
-  def initialize(:number, :bill_uri, :title, :sponsor_uri, :introduced_date, :cosponsors, :committees)
+
+  def initialize(:number, :bill_uri, :title, :sponsor_uri, :introduced_date, :cosponsors, :committees, :latest_major_action_date, :latest_major_action)
     self.number = number
     self.title = title
     self.sponsor_uri = sponsor_uri

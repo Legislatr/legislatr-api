@@ -1,3 +1,0 @@
-class RecentLegislationController < ApplicationController
-
-end
