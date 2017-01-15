@@ -83,3 +83,5 @@ production:
   database: legislatr
   username: legislatr
   password: <%= ENV['DB_PASSWORD'] %>
+  host: <%= ENV['RDS_HO'] %>
+  port: <%= ENV['RDS_PORT'] %>
